@@ -1,0 +1,6 @@
+.env
+.gitignore
+local.settings.json
+README.MD
+package.json
+package-lock.json

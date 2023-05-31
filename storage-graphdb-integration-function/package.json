@@ -1,0 +1,15 @@
+{
+  "name": "storage-graphdb-integration-function",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "build": "run-s clean build:compile build:zip"
+  },
+  "dependencies": {
+    "@azure/functions": "^3.5.0",
+    "@azure/storage-blob": "^12.13.0",
+    "dotenv": "^16.0.3"
+  }
+}

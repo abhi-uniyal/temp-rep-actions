@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "FN_CONTAINER_NAME/FN_FOLDER_PATH/{name}.{extension}",
+      "connection": "FN_STORAGE_CONNECTION_STRING"
+    }
+  ]
+}
